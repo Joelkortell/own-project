@@ -1,0 +1,134 @@
+
+
+
+.cards {
+    width: 900px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+
+}
+
+
+
+
+.card1,
+.card2,
+.card3 {
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px gray;
+    height: 550px;
+
+}
+
+.card-text {
+    color: black;
+}
+
+#logo {
+    width: 140px;
+    height: 130px;
+}
+
+.navbar {
+    margin-top: ;
+    margin-right: 15px;
+    width: 100%;
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #111111;
+    bottom: 0;
+}
+
+.navbar2 {
+    margin-top: 200px;
+}
+
+nav a p {
+    color: white;
+
+}
+
+.nav-text {
+    font-size: 54px;
+}
+
+.button {
+    margin-top: 152px;
+}
+
+.intel-datorpaket,
+.amd-datorpaket,
+.ditt-eget-datorpaket {
+    width: 900px;
+    height: 630px;
+    justify-content: center;
+    margin: 150px auto;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 2px gray;
+    background-color: white;
+}
+
+
+
+@media only screen and (max-width:959px) {
+
+    .intel-datorpaket,
+    .amd-datorpaket,
+    .ditt-eget-datorpaket {
+        flex-direction: column;
+        justify-content: center;
+        margin: 150px auto;
+
+    }
+
+    a {
+        margin: 0px;
+        margin: center;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    #a {
+        margin-top: -5px;
+    }
+
+    #b {
+        margin-top:  350px;
+        margin-bottom: -55px;
+    }
+
+    #c {
+        margin-top: 450px;
+    }
+
+    .intel-datorpaket,
+    .amd-datorpaket,
+    .ditt-eget-datorpaket {
+        width: 100%;
+        width: 900px;
+        height: 630px;
+        justify-content: center;
+        margin: 150px auto;
+
+        background-color: white;
+
+    }
+
+    .navbar2 {
+        margin-top: 1100px;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    .navbar {
+        width: 110vw;
+    }
+    
+    .nav-text {
+        font-size: 44px;
+    }
+}
+
